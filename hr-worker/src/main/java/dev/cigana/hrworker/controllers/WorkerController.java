@@ -1,6 +1,7 @@
 package dev.cigana.hrworker.controllers;
 
 import dev.cigana.hrworker.domain.Worker;
+import dev.cigana.hrworker.domain.dtos.WorkerDTO;
 import dev.cigana.hrworker.services.WorkerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +18,7 @@ public class WorkerController {
     private WorkerService workerService;
 
     @GetMapping("/{id}")
-    public ResponseEntity<Worker> findById(@PathVariable Long id){
+    public ResponseEntity<WorkerDTO> findById(@PathVariable Long id){
         return ResponseEntity.ok(workerService.findById(id));
     }
 
