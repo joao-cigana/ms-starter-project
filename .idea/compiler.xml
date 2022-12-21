@@ -12,7 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="hr-payroll" target="17" />
+      <module name="hr-payroll" target="11" />
       <module name="hr-worker" target="17" />
     </bytecodeTargetLevel>
   </component>
