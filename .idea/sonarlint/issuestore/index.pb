@@ -7,3 +7,9 @@ v
 Fhr-worker/src/main/java/dev/cigana/hrworker/domain/dtos/WorkerDTO.java,c\5\c5db8930ab99bfa598032a548fe9c631d1c6f845
 w
 Ghr-worker/src/main/java/dev/cigana/hrworker/services/WorkerService.java,d\6\d6feed9940ebdfc041732eb8b73a28621a073e8a
+p
+@hr-payroll/src/main/java/dev/cigana/hrpayroll/domain/Worker.java,0\4\04f355308c3e5621f55053035c08259d82eb91f8
+z
+Jhr-payroll/src/main/java/dev/cigana/hrpayroll/services/PaymentService.java,d\4\d42ac9d12dcf4beb8ab3b49232fb6b5706de0a45
+q
+Ahr-payroll/src/main/java/dev/cigana/hrpayroll/domain/Payment.java,a\2\a2787e41d78c51b482260bec6aeea45816ef5754
