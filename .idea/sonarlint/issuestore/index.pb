@@ -17,3 +17,15 @@ v
 Fhr-worker/src/main/java/dev/cigana/hrworker/domain/dtos/WorkerDTO.java,c\5\c5db8930ab99bfa598032a548fe9c631d1c6f845
 }
 Mhr-worker/src/main/java/dev/cigana/hrworker/controllers/WorkerController.java,e\0\e04fb835fab1b5b292fd6780f8caafa5c86a730e
+B
+hr-payroll/pom.xml,c\2\c2876b45d187d8cb7f68f334d254c9498362c0aa
+t
+Dhr-worker/src/main/java/dev/cigana/hrworker/HrWorkerApplication.java,9\0\90b1a86f66841f5eb4599be8a5748713ba16e59d
+A
+hr-worker/pom.xml,b\c\bc40554fef381eccc7d70563dce5f3cba6f79f2c
+m
+=hr-payroll/src/main/java/cigana/hrpayroll/domain/Payment.java,f\4\f49f8f0760d074beeb3d36a8086bb7bfcd8082bc
+|
+Lhr-payroll/src/main/java/cigana/hrpayroll/controllers/PaymentController.java,6\d\6dc419e19b41db65787204e2c621158ee6ab9a88
+s
+Chr-payroll/src/main/java/cigana/hrpayroll/HrPayrollApplication.java,f\f\ffd2c34c828301b45ef43fe5c360fde2a833e360
