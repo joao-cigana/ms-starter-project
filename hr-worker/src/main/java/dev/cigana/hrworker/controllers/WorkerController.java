@@ -2,10 +2,8 @@ package dev.cigana.hrworker.controllers;
 
 import dev.cigana.hrworker.domain.dtos.WorkerDTO;
 import dev.cigana.hrworker.services.WorkerService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.env.Environment;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
@@ -19,10 +17,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class WorkerController {
 
     @Autowired
-    private Environment environment;
-
-    @Autowired
     private WorkerService workerService;
+
+    @Value("${test.config}")
+    private String testConfig;
+
+    @GetMapping("/configs")
+    public ResponseEntity<String> getConfig(){
+        return ResponseEntity.ok(testConfig);
+    }
 
     @GetMapping("/{id}")
     public ResponseEntity<WorkerDTO> findById(@PathVariable Long id){
