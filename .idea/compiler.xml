@@ -12,6 +12,7 @@
         <module name="hr-config-server" />
         <module name="hr-eureka-server" />
         <module name="hr-worker" />
+        <module name="hr-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="hr-config-server" target="17" />
       <module name="hr-eureka-server" target="11" />
       <module name="hr-payroll" target="17" />
+      <module name="hr-user" target="17" />
       <module name="hr-worker" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -30,6 +32,7 @@
       <module name="hr-config-server" options="-parameters" />
       <module name="hr-eureka-server" options="-parameters" />
       <module name="hr-payroll" options="-parameters" />
+      <module name="hr-user" options="-parameters" />
       <module name="hr-worker" options="-parameters" />
     </option>
   </component>
