@@ -27,12 +27,8 @@ f
 6hr-eureka-server/.mvn/wrapper/maven-wrapper.properties,6\0\60d7143cc640ea1975038703331d9f8a4d6d48bd
 C
 api-gateway/pom.xml,2\b\2bfa2b108f2439e99e004f4085b58c22cf995f73
-t
-Dhr-worker/src/main/java/dev/cigana/hrworker/HrWorkerApplication.java,9\0\90b1a86f66841f5eb4599be8a5748713ba16e59d
 z
 Japi-gateway/src/main/java/dev/cigana/apigateway/ApiGatewayApplication.java,2\7\27f60970d1f6eb9e2fcc6986adf8b9220e98fa8c
-}
-Mhr-worker/src/main/java/dev/cigana/hrworker/controllers/WorkerController.java,e\0\e04fb835fab1b5b292fd6780f8caafa5c86a730e
 ‡
 Whr-config-server/src/main/java/dev/cigana/hrconfigserver/HrConfigServerApplication.java,d\4\d45b9e380c042c0372c85592ace75b044857ee82
 H

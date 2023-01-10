@@ -8,7 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 
-@Entity(name = "tb_roles")
+@Entity(name = "tb_role")
 @Getter
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)

@@ -3,6 +3,7 @@ package dev.cigana.hruser.domain;
 import lombok.*;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
@@ -20,6 +21,9 @@ public class User implements Serializable {
     @EqualsAndHashCode.Include
     private Long id;
     private String name;
+
+    @Column(unique = true)
+    @NotBlank
     private String email;
     private String password;
     @ManyToMany(fetch = FetchType.EAGER)
